@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
 
     public float moveSpeed = 10f;
 
+    public bool isPaused;
+
     public static GameManager instance;
     private void Awake()
     {

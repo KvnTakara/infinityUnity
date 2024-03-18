@@ -75,10 +75,12 @@ public class TrackSystem : MonoBehaviour
 
     void InstantiateTrack()
     {
+        // Randomize one of the Tracks in randomTracks List to Instantiate.
         int randomNum = Random.Range(0, randomTracks.Count);
         GameObject selectedTrack = randomTracks[randomNum];
         GameObject trackInstance = Instantiate(selectedTrack, targetPosition, Quaternion.identity);
 
+        // Pick randomly one of the tree rail tracks to Instantiate a random Obstacle.
         int rangeMin = 0;
         int rangeMax = 2;
         for (int i = 0;i < 2; i++)
