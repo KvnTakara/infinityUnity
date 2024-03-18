@@ -3268,8 +3268,8 @@ MonoBehaviour:
   highScore: 0
   moveSpeed: 10
   isPaused: 0
-  musicVolume: 0.8
-  soundVolume: 0.8
+  musicVolume: 0.25
+  soundVolume: 0.25
   musicSource: {fileID: 0}
 --- !u!4 &1544358443
 Transform:
@@ -3298,7 +3298,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 261cd1a20529eb9409bc2a5015fdf713, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3750,7 +3750,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 19fe6e41adab2324b98cf5553a80be41, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19fe6e41adab2324b98cf5553a80be41, type: 3}
       propertyPath: m_LocalScale.x

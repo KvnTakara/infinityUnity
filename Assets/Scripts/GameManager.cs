@@ -14,8 +14,8 @@ public class GameManager : MonoBehaviour
 
     public bool isPaused;
 
-    public float musicVolume = 0.5f;
-    public float soundVolume = 0.5f;
+    public float musicVolume = 0.25f;
+    public float soundVolume = 0.25f;
 
     public static GameManager instance;
     public AudioSource musicSource;

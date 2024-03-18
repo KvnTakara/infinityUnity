@@ -48,9 +48,13 @@ public class PlayerController : MonoBehaviour
         // Time speed should double every 150 seconds.
         if (timeScale < 3.5f) timeScale += Time.deltaTime/150;
         Time.timeScale = timeScale;
+
+        if (Input.GetAxis("Horizontal") > 0) ActionGoRight();
+        if (Input.GetAxis("Horizontal") < 0) ActionGoLeft();
+        if (Input.GetAxis("Vertical") > 0 || Input.GetAxis("Jump") > 0) ActionGoUp();
     }
 
-    public void ButtonGoRight()
+    public void ActionGoRight()
     {
         if (isAlive && canMove)
         {
@@ -59,7 +63,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void ButtonGoLeft()
+    public void ActionGoLeft()
     {
         if (isAlive && canMove)
         {
@@ -68,7 +72,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void ButtonGoUp()
+    public void ActionGoUp()
     {
         if (isAlive && canMove)
         {
