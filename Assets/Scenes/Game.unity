@@ -2503,36 +2503,10 @@ MonoBehaviour:
   track1: {fileID: 7050376355022919147, guid: fa82b539d6485ed4db917ef1aeba0793, type: 3}
   track2: {fileID: 7050376355022919147, guid: 8cd6337c29dfc574f9c005ad997468b8, type: 3}
   track3: {fileID: 7050376355022919147, guid: 2b8e9f7ba1ac89e43bf2126df52fd3d8, type: 3}
-  t0obstacle0: {fileID: 7050376355022919147, guid: 278511e89d515984e8970628ee81a430, type: 3}
-  t0obstacle1: {fileID: 7050376355022919147, guid: 4efca4c2b4c54f44f81e2e5198f8d4e2, type: 3}
-  t1obstacle0: {fileID: 7050376355022919147, guid: b601cce55dadc9c408a0f22718d8e50f, type: 3}
-  t1obstacle1: {fileID: 7050376355022919147, guid: 032d42618b3e4434482c9d600800f247, type: 3}
-  t2obstacle0: {fileID: 7050376355022919147, guid: 37c818600b41f2d46a057997cf29865d, type: 3}
-  t2obstacle1: {fileID: 7050376355022919147, guid: 52d3097c6ae77b846b518607d81b4860, type: 3}
-  t3obstacle0: {fileID: 7050376355022919147, guid: 993b756724eb5ce4cbbe4bdd6e10c1b8, type: 3}
-  t3obstacle1: {fileID: 7050376355022919147, guid: ea42cd175b671084c8b80149ab12ec20, type: 3}
-  t3obstacle2: {fileID: 7050376355022919147, guid: 7b7715951d3a8534e9db0c9c8f0e20f7, type: 3}
-  t3obstacle3: {fileID: 7050376355022919147, guid: 0354843667e3d8142b06af21630f21ac, type: 3}
-  t4obstacle0: {fileID: 7050376355022919147, guid: e420b653dcf5b75458063cd797d3160c, type: 3}
-  t4obstacle1: {fileID: 7050376355022919147, guid: 9227ee378a408944c8fc6b92c4079ad1, type: 3}
-  t4obstacle2: {fileID: 7050376355022919147, guid: 32500cd5301673b48a1b27324928d32f, type: 3}
-  t4obstacle3: {fileID: 7050376355022919147, guid: d310d93cb2859b548bfd40e7b33cf6ca, type: 3}
-  t5obstacle0: {fileID: 7050376355022919147, guid: 53e56e1647c2c594d95701dda57c9891, type: 3}
-  t5obstacle1: {fileID: 7050376355022919147, guid: babf931227a05d94ea1bbc92ca68594b, type: 3}
-  t5obstacle2: {fileID: 7050376355022919147, guid: 3d6d8c7d19125cd4c8b4c9aa30d5e378, type: 3}
-  t5obstacle3: {fileID: 7050376355022919147, guid: 173e7747ee5e35547a3158693d0697b8, type: 3}
-  t6obstacle0: {fileID: 7050376355022919147, guid: a7072a9fdd71abf449eff17e11fdc455, type: 3}
-  t6obstacle1: {fileID: 7050376355022919147, guid: b1b5e71152794d149b63b18fa684cf65, type: 3}
-  t6obstacle2: {fileID: 7050376355022919147, guid: e296e63792466a6469303c581076aa29, type: 3}
-  t6obstacle3: {fileID: 7050376355022919147, guid: a95219b1903e9a8478114f5a900ee871, type: 3}
-  t7obstacle0: {fileID: 7050376355022919147, guid: 8d54cc3b102f0b2458d4e80d6effdca4, type: 3}
-  t7obstacle1: {fileID: 7050376355022919147, guid: 1b0faadc07b9c714b8fb4e9784b40abe, type: 3}
-  t7obstacle2: {fileID: 7050376355022919147, guid: 6e023a6a793018547aa56affdd394eff, type: 3}
-  t7obstacle3: {fileID: 7050376355022919147, guid: 6a51840f9788a72498e92e7b38750fb8, type: 3}
-  t8obstacle0: {fileID: 7050376355022919147, guid: 6e286fe14aa023c4399197b9af2c7bb2, type: 3}
-  t8obstacle1: {fileID: 7050376355022919147, guid: 11b7ba842b45b8a41a5a860fc72c0bcc, type: 3}
-  t8obstacle2: {fileID: 7050376355022919147, guid: b356a870c4fee344a9ca8c1f49c6fc7b, type: 3}
-  t8obstacle3: {fileID: 7050376355022919147, guid: 4c4cc959364a98a49843ffc7e88b1c5b, type: 3}
+  obstacle0: {fileID: 7050376355022919147, guid: 72002644b5158b54e8ac7642a722c744, type: 3}
+  obstacle1: {fileID: 7050376355022919147, guid: 64d4a64c4da725b4dbeab395125e2b4e, type: 3}
+  obstacle2: {fileID: 7050376355022919147, guid: 3ee299495b94e454c92ea24cd0814548, type: 3}
+  obstacle3: {fileID: 7050376355022919147, guid: a3d3eb3bb4f4c4e42a667e983647bbb2, type: 3}
 --- !u!1 &520898187
 GameObject:
   m_ObjectHideFlags: 0
