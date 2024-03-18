@@ -1959,6 +1959,7 @@ MonoBehaviour:
   inGameMenu: {fileID: 1647009586}
   menuPause: {fileID: 1825170236}
   menuSettings: {fileID: 375291922}
+  musicVolume: {fileID: 333635401}
 --- !u!4 &390956353
 Transform:
   m_ObjectHideFlags: 0
@@ -5711,6 +5712,9 @@ MonoBehaviour:
   highScore: 0
   moveSpeed: 10
   isPaused: 0
+  musicVolume: 0.8
+  soundVolume: 0.8
+  musicSource: {fileID: 0}
 --- !u!4 &1544358443
 Transform:
   m_ObjectHideFlags: 0

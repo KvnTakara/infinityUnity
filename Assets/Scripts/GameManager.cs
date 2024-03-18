@@ -14,7 +14,11 @@ public class GameManager : MonoBehaviour
 
     public bool isPaused;
 
+    public float musicVolume = 0.5f;
+    public float soundVolume = 0.5f;
+
     public static GameManager instance;
+    public AudioSource musicSource;
     private void Awake()
     {
         if (instance == null)
@@ -24,7 +28,9 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
+
+        musicSource = GetComponent<AudioSource>();
     }
 }

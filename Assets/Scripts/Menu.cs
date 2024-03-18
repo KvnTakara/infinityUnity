@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
@@ -10,11 +11,24 @@ public class Menu : MonoBehaviour
     public GameObject menuPause;
     public GameObject menuSettings;
 
+    public Slider musicVolume;
+    AudioSource musicSource;
+
     void Start()
     {
         if (menuPause != null) menuPause.SetActive(true);
         if (inGameMenu != null) inGameMenu.SetActive(false);
         menuSettings.SetActive(false);
+
+        musicSource = GameManager.instance.musicSource;
+        musicVolume.value = GameManager.instance.musicVolume;
+        musicVolume.onValueChanged.AddListener(delegate { UpdateVolume(); });
+    }
+
+    void UpdateVolume()
+    {
+        GameManager.instance.musicVolume = musicVolume.value;
+        musicSource.volume = musicVolume.value;
     }
 
     public void PlayButton()
