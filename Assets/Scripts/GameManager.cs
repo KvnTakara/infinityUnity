@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance;
+    public int score;
+    public float distance;
+    public int coins;
+
+    public int highScore;
+
+    public float moveSpeed = 10f;
+
+    public static GameManager instance;
     private void Awake()
     {
-        if (Instance == null)
+        if (instance == null)
         {
             DontDestroyOnLoad(gameObject);
-            Instance = this;
+            instance = this;
         }
         else
         {

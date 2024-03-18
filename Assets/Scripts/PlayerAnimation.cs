@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
+    public GameObject menuGameOver;
+
     PlayerController controller;
     private void Start()
     {
@@ -12,16 +14,27 @@ public class PlayerAnimation : MonoBehaviour
 
     public void goingRight()
     {
-        controller.transform.position += new Vector3(2, 0, 0);
+        controller.transform.position += new Vector3(2, 0.25f, 0);
     }
 
     public void goingLeft()
     {
-        controller.transform.position += new Vector3(-2, 0, 0);
+        controller.transform.position += new Vector3(-2, 0.25f, 0);
+    }
+
+    public void goingUp()
+    {
+        GetComponentInParent<BoxCollider>().enabled = false;
     }
 
     public void ArrivedToTrack()
     {
         controller.canMove = true;
+        GetComponentInParent<BoxCollider>().enabled = true;
+    }
+
+    public void GameOver()
+    {
+        menuGameOver.SetActive(true);
     }
 }

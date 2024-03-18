@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Track
   - Road
+  - Obstacles
   layers:
   - Default
   - TransparentFX
